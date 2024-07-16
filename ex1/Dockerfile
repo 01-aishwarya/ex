@@ -1,4 +1,4 @@
-From node:18
+FROM node:18
 WORKDIR /sdm
 COPY ser.js
 RUN npm install
